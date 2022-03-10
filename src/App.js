@@ -8,7 +8,7 @@ const App = () => {
   const apikey = "ec2a521f";
   const searchMovie = async (title) => {
     const response = await fetch(
-      `http://www.omdbapi.com/?apikey=${apikey}&s=${title}`
+      `https://www.omdbapi.com/?apikey=${apikey}&s=${title}`
     );
     const data = await response.json();
     setMovies(data.Search);
