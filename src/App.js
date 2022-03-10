@@ -15,7 +15,7 @@ const App = () => {
     console.log(data.Search);
   };
   useEffect(() => {
-    searchMovie("batman");
+    searchMovie("");
   }, [search]);
   // const movie = {
   //   Poster:
